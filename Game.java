@@ -42,11 +42,7 @@ public class Game {
 
     public void displayBoard() {
         for (int i = 0; i < 64; i++) {
-            try {
-                System.out.println(this.board[i].getColour() + this.board[i].getType());
-            } catch (NullPointerException e) {
-                System.out.println("NULL");
-            }
+            System.out.println(this.board[i]);
         }
     }
 

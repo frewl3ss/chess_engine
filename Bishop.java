@@ -3,6 +3,7 @@ public class Bishop extends Piece {
 
     public Bishop(boolean isWhite, int position) {
         super(isWhite, position);
+        this.type = "BISHOP";
         if(isWhite) {
             this.value = 30;
         } else {

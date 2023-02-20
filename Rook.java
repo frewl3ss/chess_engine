@@ -3,6 +3,7 @@ public class Rook extends Piece {
 
     public Rook(boolean isWhite, int position) {
         super(isWhite, position);
+        this.type = "ROOK";
         if(isWhite) {
             this.value = 50;
         } else {

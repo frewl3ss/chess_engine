@@ -3,6 +3,7 @@ public class Pawn extends Piece {
 
     public Pawn(boolean isWhite, int position) {
         super(isWhite, position);
+        this.type = "PAWN";
         if(isWhite) {
             this.value = 10;
         } else {
